@@ -10,6 +10,7 @@ tensorflow-gpu = "^2.9.1"
 opencv-contrib-python = "^4.6.0"
 matplotlib = "^3.5.2"
 sympy = "^1.10.1"
+jupyter = "^1.0.0"
 [tool.poetry.dev-dependencies]
 
 [build-system]
