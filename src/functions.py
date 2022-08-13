@@ -126,6 +126,11 @@ class CGH:
         f = np.fft.fft2(org_img)
         fshift = np.fft.fftshift(f)
         return fshift
+    
+    def inverse_fraunhofer_diffraction(org_img):
+        f = np.fft.ifft2(org_img)
+        #fshift = np.fft.fftshift(f)
+        return f
 
 
     def shift_scale_propagation(u1, N, l_ambda, z, p, shift_x=0.0, shift_y=0.0, scale=1.0):
